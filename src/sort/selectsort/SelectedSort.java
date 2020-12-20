@@ -1,8 +1,7 @@
-package org.datastructure.sort.selectsort;
+package sort.selectsort;
 
-import org.datastructure.sort.Sort;
-import org.datastructure.sort.SortingTools;
-import org.datastructure.sort.insertsort.InsertSort;
+import sort.Sort;
+import sort.SortingTools;
 
 /**
  * @program: datastructure

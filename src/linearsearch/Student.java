@@ -1,4 +1,4 @@
-package org.datastructure.linearsearch;
+package linearsearch;
 
 import java.util.Objects;
 
@@ -32,5 +32,12 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hash(name);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }

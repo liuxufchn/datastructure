@@ -1,4 +1,4 @@
-package org.datastructure.sort;
+package sort;
 
 /**
  * @program: datastructure

@@ -1,4 +1,4 @@
-package org.datastructure.linearsearch;
+package linearsearch;
 
 /**
  * @program: datastructure
