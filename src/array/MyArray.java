@@ -93,10 +93,10 @@ public class MyArray<E> {
         }
         E val = data[index];
         for (int i = index; i < size - 1; i++) {
-            data[index] = data[index + 1];
+            data[i] = data[i + 1];
         }
         size--;
-        data[index] = null;
+        data[size] = null;
         return val;
     }
 
